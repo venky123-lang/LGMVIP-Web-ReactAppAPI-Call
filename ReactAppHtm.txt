@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PageLoader</title>
+<link rel="stylesheet" href="load.css">
+
+</head>
+<nav class="nav">
+    <img src="https://letsgrowmore.in/wp-content/uploads/2021/05/cropped-growmore-removebg-preview.png" alt="img" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/V_%28logo_2010%29.svg/1024px-V_%28logo_2010%29.svg.png" alt="" class="logo">
+    <div class="btn">
+        <button id="redirect">GetData</button>
+    </div>
+</nav>
+<body>
+    <div class="container">
+        <h1>Steps to follow - how to navigate from one page to another page</h1>
+        <br />
+        <h2>
+        <ol>
+            <li>Step:1 - click on the above button "GetData"</li>
+            <br />
+            <li>step:2 - then directly we can see one loading anim</li>
+            <br />
+            <li>then this is the desired page navigation</li>
+        </ol>
+    </h2> 
+   
+        
+    </div>
+
+    <div class="loader">
+        <div class="circle">
+            
+        </div>
+    </div>
+    <script src="load.js"></script>
+
+</body>
+</html>
+

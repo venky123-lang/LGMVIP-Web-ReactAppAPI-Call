@@ -1,0 +1,16 @@
+let btnEle = document.getElementById('redirect');
+let loader = document.querySelector('.loader');
+let conEle = document.querySelector(".container");
+
+btnEle.onclick= function()
+{
+  conEle.style.display ="none";
+  loader.style.display ="block";
+
+  setTimeout(function()
+    {
+      loader.style.display ="none";
+      window.open("https://34lwc0.csb.app/","_self")
+    },2000
+  )
+}
